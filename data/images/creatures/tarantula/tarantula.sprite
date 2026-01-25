@@ -1,53 +1,40 @@
 (supertux-sprite
   (action
     (name "idle")
-    (hitbox 36 16 48 54)
-    (fps 10)
-    (images "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-9.png"
-		        "tarantula-7.png"
-		        "tarantula-8.png"
-		        "tarantula-9.png")
+	(hitbox 14 14 37 43)
+    (fps 15)
+    (images "spidermite1.png"
+            "spidermite2.png"
+            "spidermite3.png"
+            "spidermite4.png"
+            "spidermite5.png"
+            "spidermite6.png")
   )
   (action
     (name "dive")
-    (hitbox 36 16 48 54)
-    (fps 15)
-    (loops 1)
-    (images "tarantula-0.png"
-		        "tarantula-1.png"
-		        "tarantula-2.png"
-		        "tarantula-3.png")
+	(hitbox 14 14 37 43)
+    (fps 25)
+    (images "spidermite1.png"
+            "spidermite2.png"
+            "spidermite3.png"
+            "spidermite4.png"
+            "spidermite5.png"
+            "spidermite6.png")
   )
   (action
     (name "rebound")
-    (hitbox 36 16 48 54)
-    (fps 15)
-    (loops 1)
-    (images "tarantula-3.png"
-		        "tarantula-4.png"
-		        "tarantula-5.png"
-		        "tarantula-6.png"
-		        "tarantula-7.png"
-		        "tarantula-8.png"
-		        "tarantula-9.png")
+	(hitbox 14 14 37 43)
+    (fps 25)
+    (images "spidermite1.png"
+            "spidermite2.png"
+            "spidermite3.png"
+            "spidermite4.png"
+            "spidermite5.png"
+            "spidermite6.png")
   )
   (action
     (name "squished")
-    (hitbox 36 16 48 45)
-    (images "squished.png")
-    )
+	(hitbox 14 19 37 43)
+    (images "spidermite-squish.png")
   )
+)

@@ -1,6 +1,6 @@
 (supertux-sprite
   (action
-    (name "default")
+    (name "normal")
     (fps 10)
     (images "foxsleep1.png"
             "foxsleep2.png"

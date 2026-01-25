@@ -5,7 +5,7 @@
  )
  (action
   (name "display")
-  (images "earth.png")
+  (images "earth_display.png")
  )
  (action
   (name "outline")

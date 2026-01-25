@@ -5,7 +5,7 @@
  )
  (action
   (name "display")
-  (images "water.png")
+  (images "water_display.png")
  )
  (action
   (name "outline")

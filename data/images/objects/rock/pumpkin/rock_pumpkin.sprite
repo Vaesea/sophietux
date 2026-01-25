@@ -1,7 +1,0 @@
-(supertux-sprite
-  (action
-    (name "default")
-    (hitbox 0 6 32 32)
-    (images "pumpkin.png")
-  )
-)
