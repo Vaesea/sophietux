@@ -19,7 +19,7 @@
 #include "sprite/sprite.hpp"
 
 SmartBall::SmartBall(const ReaderMapping& reader)
-  : WalkingBadguy(reader, "images/creatures/snowball/smart-snowball.sprite", "left", "right")
+  : WalkingBadguy(reader, "images/creatures/snowball/smart/smart-snowball.sprite", "left", "right")
 {
   parse_type(reader);
 

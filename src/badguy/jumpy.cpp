@@ -61,7 +61,7 @@ Jumpy::get_default_sprite_name() const
     case METAL:
       return "images/creatures/jumpy/metaljumpy.sprite";
     case BAG:
-      return "images/creatures/bag/bag.sprite";
+      return "images/creatures/jumpy/bag.sprite";
     default:
       return m_default_sprite_name;
   }

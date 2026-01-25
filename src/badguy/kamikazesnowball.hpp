@@ -25,7 +25,7 @@ class KamikazeSnowball : public BadGuy
 {
 public:
   KamikazeSnowball(const ReaderMapping& reader,
-                   const std::string& sprite_name = "images/creatures/snowball/kamikaze-snowball.sprite");
+                   const std::string& sprite_name = "images/creatures/snowball/kamikaze/kamikaze-snowball.sprite");
 
   virtual void initialize() override;
   virtual void collision_solid(const CollisionHit& hit) override;
