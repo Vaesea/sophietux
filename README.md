@@ -8,6 +8,7 @@ Run the "run_supertux_portable.bat" file in the portable version of this mod to 
 ## Credits
 * Vaesea - Levels
 * FilipOK - Art, music that will be added later
+* FrostC - Art (sand tiles, will be added later but still in time for milestone 1.5)
 * AnatolyStev - Original "Platforms In The Icy River"
 * SuperTux Team - Original SuperTux v0.7 and v0.6.3.
 * Bart + opengameart.org - Airship Song
