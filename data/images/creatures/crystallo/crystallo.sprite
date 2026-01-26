@@ -117,7 +117,7 @@
     (fps 14)
     (hitbox 8 12 32 26)
     (loops 1)
-    (images "sleep-0.png")
+    (images "crystallo-sleeping.png")
   )
   (action
     (name "sleeping-right")

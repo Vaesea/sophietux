@@ -1,11 +1,12 @@
 (supertux-sprite
  (action
-  (name "normal")
+  (name "default")
   (hitbox 21 5 28 43)
   (images "skydive1.png"))
  (action
   (name "falling")
   (fps 15.0)
+  (loops 1)
   (hitbox 21 5 28 43)
   (images "skydive1.png"
           "skydive1.png"
