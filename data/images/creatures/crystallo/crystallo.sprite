@@ -2,7 +2,7 @@
   (action
     (name "left")
     (fps 14)
-    (hitbox 8 12 32 26)
+    (hitbox 8 9 32 20)
     (images "crystallo-left-0.png"
             "crystallo-left-1.png"
             "crystallo-left-2.png"
@@ -15,29 +15,27 @@
   (action
     (name "right")
     (fps 14)
-    (hitbox 8 12 32 26)
+    (hitbox 8 9 32 20)
     (mirror-action "left")
   )
   (action
     (name "slowdown-left")
     (fps 5)
-    (hitbox 8 12 32 26)
+    (hitbox 8 9 32 20)
     (clone-action "left")
   )
   (action
     (name "slowdown-right")
     (fps 5)
-    (hitbox 8 12 32 26)
+    (hitbox 8 9 32 20)
     (clone-action "right")
   )
   (action
     (name "shattered-left")
-    (hitbox 8 12 32 26)
     (images "shattered-left.png")
   )
   (action
     (name "shattered-right")
-    (hitbox 8 12 32 26)
     (mirror-action "shattered-left")
   )
 
@@ -45,41 +43,39 @@
   (action
     (name "roof-left")
     (fps 14)
-    (hitbox 8 12 32 26)
+    (hitbox 8 1 32 25)
     (flip-action "left")
   )
   (action
     (name "roof-right")
     (fps 14)
-    (hitbox 8 12 32 26)
+    (hitbox 8 1 32 25)
     (mirror-action "roof-left")
   )
   (action
     (name "roof-slowdown-left")
     (fps 5)
-    (hitbox 8 12 32 26)
+    (hitbox 8 1 32 25)
     (clone-action "roof-left")
   )
   (action
     (name "roof-slowdown-right")
     (fps 5)
-    (hitbox 8 12 32 26)
+    (hitbox 8 1 32 25)
     (clone-action "roof-right")
   )
   (action
     (name "roof-shattered-left")
-    (hitbox 8 12 32 26)
     (images "shattered-left.png")
   )
   (action
     (name "roof-shattered-right")
-    (hitbox 8 12 32 26)
     (mirror-action "roof-shattered-left")
   )
   (action
     (name "roof-detected-left")
     (fps 15)
-    (hitbox 17 2 24 36)
+    (hitbox 45 2 20 35)
     (loops 1)
     (images "crystallo-fall-0.png"
             "crystallo-fall-1.png"
@@ -96,18 +92,18 @@
   (action
     (name "roof-detected-right")
     (fps 15)
-    (hitbox 19 2 24 36)
+    (hitbox 35 2 20 35)
     (loops 1)
     (mirror-action "roof-detected-left")
   )
   (action
     (name "roof-fall-left")
-    (hitbox 17 2 24 36)
+    (hitbox 45 2 20 35)
     (images "crystallo-fall-10.png")
   )
   (action
     (name "roof-fall-right")
-    (hitbox 19 2 24 36)
+    (hitbox 35 2 20 35)
     (mirror-action "roof-fall-left")
   )
 
@@ -115,14 +111,14 @@
   (action
     (name "sleeping-left")
     (fps 14)
-    (hitbox 8 12 32 26)
+    (hitbox 8 13 32 14)
     (loops 1)
     (images "crystallo-sleeping.png")
   )
   (action
     (name "sleeping-right")
     (fps 14)
-    (hitbox 8 12 32 26)
+    (hitbox 9 13 32 14)
     (loops 1)
     (mirror-action "sleeping-left")
   )
@@ -150,7 +146,7 @@
   (action
     (name "waking-right")
     (fps 14)
-    (hitbox 8 12 32 26)
+    (hitbox 9 13 32 14)
     (loops 1)
     (mirror-action "waking-left")
   )
@@ -169,7 +165,7 @@
   (action
     (name "jumping-right")
     (fps 14)
-    (hitbox 8 12 32 26)
+    (hitbox 8 9 32 26)
     (loops 1)
     (mirror-action "jumping-left")
   )
