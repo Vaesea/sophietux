@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "A Yeti Is Nearby... (Should probably be remade?)"))
+  (name (_ "A Yeti Is Nearby..."))
   (author "Sophie \"Vaesea\" Ball")
   (license "CC-BY-SA 4.0 International")
   (allow-item-pocket "inherit")
@@ -61,7 +61,7 @@ Text.fade_out(1);")
     )
     (scripttrigger
       (oneshot #t)
-      (script "Yeti.set_action(\"walking-right\");
+      (script "Yeti.set_action(\"walk-right\");
 play_sound(\"sounds/yeti_gna.wav\");
 Yeti.set_velocity(350, 0);")
       (button #f)
@@ -93,21 +93,6 @@ Level.finish(true);")
       (height 32)
       (x 2688)
       (y 960)
-    )
-    (scripttrigger
-      (script "Tux.do_jump(-320);")
-      (button #f)
-      (width 32)
-      (height 32)
-      (x 512)
-      (y 928)
-    )
-    (snowball
-      (z-pos 50)
-      (direction "left")
-      (x 768)
-      (y 928)
-      (glinting #f)
     )
     (spawnpoint
       (name "main")

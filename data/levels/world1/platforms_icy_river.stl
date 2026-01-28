@@ -1,6 +1,6 @@
 (supertux-level
   (version 3)
-  (name (_ "Platforms In The Icy River (REPLACE THIS)"))
+  (name (_ "Platforms In The Unswimmable River"))
   (author "AnatolyStev (Original), Vaesea (Remake)")
   (license "CC-BY-SA 4.0 International")
   (target-time 62)
@@ -90,6 +90,12 @@
       (top_color 0.5 0.7 1)
       (bottom_color 1 1 1)
       (z-pos -301)
+    )
+    (infoblock
+      (z-pos 51)
+      (message (_ "This water is unswimmable..."))
+      (x 352)
+      (y 768)
     )
     (jumpy
       (z-pos 50)
@@ -1183,6 +1189,7 @@
     )
     (tilemap
       (solid #f)
+      (tint 0.5 0.5 1)
       (z-pos -1)
       (width 500)
       (height 35)

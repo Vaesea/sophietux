@@ -38,8 +38,8 @@
     (level
       (z-pos 50)
       (level "platforms_icy_river.stl")
-      (x 23)
-      (y 85)
+      (x 24)
+      (y 77)
     )
     (level
       (z-pos 50)
@@ -62,8 +62,8 @@
     (level
       (z-pos 50)
       (level "small_mountain.stl")
-      (x 24)
-      (y 77)
+      (x 23)
+      (y 85)
     )
     (level
       (z-pos 50)
@@ -115,7 +115,7 @@
     )
     (level
       (z-pos 50)
-      (level "light_end.stl")
+      (level "watch_out.stl")
       (x 61)
       (y 79)
     )
@@ -145,7 +145,7 @@
     )
     (level
       (z-pos 50)
-      (level "dark_ice.stl")
+      (level "icecrushermayhem.stl")
       (x 59)
       (y 71)
     )

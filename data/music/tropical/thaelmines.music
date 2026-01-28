@@ -1,0 +1,8 @@
+(supertux-music
+  (file "thaelmines.ogg")
+  (title "Tha el Mines (I'm unsure whether I can put the apostrophe here?)")
+  (authors "SubspaceAudio")
+  (license "CC0")
+  (loop-begin 0)
+  (loop-at    -1)
+)

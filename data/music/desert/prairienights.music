@@ -1,0 +1,8 @@
+(supertux-music
+  (file "prairienights.ogg")
+  (title "Prairie Nights")
+  (authors "SubspaceAudio")
+  (license "CC0")
+  (loop-begin 0)
+  (loop-at    -1)
+)
