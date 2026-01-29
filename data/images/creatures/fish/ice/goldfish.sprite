@@ -1,31 +1,22 @@
 (supertux-sprite
   (action
     (name "swim-left")
-    (hitbox 0 0 31.8 31.8)
-    (fps 12)
-    (images "swim_orange-0.png"
-            "swim_orange-1.png"
-            "swim_orange-2.png"
-            "swim_orange-3.png"
-            "swim_orange-4.png"
-            "swim_orange-5.png"
-            "swim_orange-6.png"
-            "swim_orange-7.png"))
+    (hitbox 2 2 21 20)
+    (images "orangefish.png"))
 
   (action
     (name "swim-right")
-    (hitbox 0 0 31.8 31.8)
-    (fps 12)
+    (hitbox 2 2 21 20)
     (mirror-action "swim-left"))
 
   (action
     (name "iced-left")
-    (hitbox -5 -5 45 43)
-    (images "swim_orange-0.png"))
+    (hitbox 4 4 32 32)
+    (images "orangefish.png"))
 
   (action
     (name "iced-right")
-    (hitbox -5 -5 45 43)
+    (hitbox 4 4 32 32)
     (mirror-action "iced-left"))
 
 )
