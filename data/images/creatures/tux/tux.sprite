@@ -116,6 +116,7 @@
        (action
          (name "small-idle-right")
          (fps 5.0)
+	 (loops 1)
          (hitbox 8 16 32 32)
          (images "small/idle-0.png"
                  "small/idle-1.png"
@@ -123,11 +124,12 @@
 
        (action
          (name "small-idle-left")
+	 (loops 1)
          (hitbox 8 16 32 32)
          (mirror-action "small-idle-right"))
 
        (action
-         (name "small-climbing-right")
+         (name "small-climb-right")
          (hitbox 12 19 36 35)
          (fps 15.0)
          (images "small/ladder-0.png"
@@ -140,13 +142,13 @@
                  "small/ladder-7.png"))
 
        (action
-         (name "small-climbing-left")
+         (name "small-climb-left")
          (hitbox 12 19 36 35)
          (fps 15.0)
-         (mirror-action "small-climbing-right"))
+         (mirror-action "small-climb-right"))
 
        (action
-         (name "small-swimming-right")
+         (name "small-swim-right")
          (fps 15.0)
          (hitbox 29 24 32 32)
          (images "small/swimsmall1.png"
@@ -156,10 +158,26 @@
                  "small/swimsmall5.png"))
 
        (action
-         (name "small-swimming-left")
+         (name "small-swim-left")
          (fps 15.0)
          (hitbox 29 24 32 32)
-         (mirror-action "small-swimming-right"))
+         (mirror-action "small-swim-right"))
+
+       (action
+         (name "small-boost-right")
+         (fps 18.0)
+         (hitbox 29 24 32 32)
+         (images "small/swimsmall1.png"
+                 "small/swimsmall2.png"
+                 "small/swimsmall3.png"
+                 "small/swimsmall4.png"
+                 "small/swimsmall5.png"))
+
+       (action
+         (name "small-boost-left")
+         (fps 18.0)
+         (hitbox 29 24 32 32)
+         (mirror-action "small-boost-right"))
 
          (action
          (name "small-slide-right")
@@ -182,7 +200,7 @@
          (mirror-action "small-slide-right"))
 
        (action
-         (name "small-floating-right")
+         (name "small-float-right")
          (fps 11.0)
          (hitbox 29 24 32 32)
          (images "small/swimsmall1.png"
@@ -203,10 +221,10 @@
                  "small/swimsmallidle.png"))
 
        (action
-         (name "small-floating-left")
+         (name "small-float-left")
          (fps 11.0)
          (hitbox 29 24 32 32)
-         (mirror-action "small-floating-right"))
+         (mirror-action "small-float-right"))
 
        (action
          (name "small-swimjump-right")
@@ -255,9 +273,29 @@
          (name "swimgrow-left")
          (hitbox 29 24 32 64)
          (mirror-action "swimgrow-right"))
+
+       (action
+         (name "slidegrow-right")
+         (fps 15.0)
+	 (loops 1)
+         (hitbox 29 24 32 64)
+         (images "small/swimsmallidle.png"
+                 "small/swimsmallidle.png"
+                 "small/swimgrow1.png"
+                 "small/swimgrow2.png"
+                 "small/swimgrow3.png"
+                 "big/swimidle1.png"
+                 "big/swimidle1.png"))
+
+       (action
+         (name "slidegrow-left")
+	 (fps 15.0)
+         (loops 1)
+         (hitbox 29 24 32 64)
+         (mirror-action "swimgrow-right"))
 		 
        (action
-         (name "grow-ladder-right")
+         (name "climbgrow-right")
          (fps 15.0)
          (hitbox 12 14 25 64)
          (images "small/grow-ladder-0.png"
@@ -269,9 +307,9 @@
                  "small/grow-ladder-6.png"))
 
        (action
-         (name "grow-ladder-left")
+         (name "climbgrow-left")
          (hitbox 12 14 25 64)
-         (mirror-action "grow-ladder-right"))
+         (mirror-action "climbgrow-right"))
 
 
 ; Big Tux
@@ -400,7 +438,7 @@
          (mirror-action "big-idle-right"))
 
        (action
-         (name "big-climbing-right")
+         (name "big-climb-right")
          (hitbox 9 14 25 64)
          (fps 15.0)
          (images "big/ladder-0.png"
@@ -413,10 +451,10 @@
                  "big/ladder-7.png"))
 
        (action
-         (name "big-climbing-left")
+         (name "big-climb-left")
          (hitbox 9 14 25 64)
          (fps 15.0)
-         (mirror-action "big-climbing-right"))
+         (mirror-action "big-climb-right"))
 
        (action
          (name "big-duck-right")
@@ -440,7 +478,7 @@
 
        (action
          (name "big-backflip-right")
-         (fps 7.0)
+         (fps 14.0)
          (hitbox 8 12 32 32)
          (images "big/flip_1.png"
                  "big/flip_2.png"
@@ -450,7 +488,7 @@
        (action
          (name "big-backflip-left")
          (hitbox 8 12 32 32)
-         (fps 7.0)
+         (fps 14.0)
          (mirror-action "big-backflip-right"))
 
        (action
@@ -484,7 +522,7 @@
          (mirror-action "big-stomp-right"))
 
        (action
-         (name "big-swimming-right")
+         (name "big-swim-right")
          (fps 15.0)
          (hitbox 29 24 32 64)
          (images "big/swim-0.png"
@@ -494,10 +532,26 @@
                  "big/swim-4.png"))
 
        (action
-         (name "big-swimming-left")
+         (name "big-swim-left")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (mirror-action "big-swimming-right"))
+         (mirror-action "big-swim-right"))
+
+       (action
+         (name "big-boost-right")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (images "big/swim-0.png"
+                 "big/swim-1.png"
+                 "big/swim-2.png"
+                 "big/swim-3.png"
+                 "big/swim-4.png"))
+
+       (action
+         (name "big-boost-left")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (mirror-action "big-boost-right"))
 
        (action
          (name "big-slide-right")
@@ -717,16 +771,16 @@
          (mirror-action "big-idle-right"))
 
        (action
-         (name "fire-climbing-right")
+         (name "fire-climb-right")
          (hitbox 9 14 25 64)
          (fps 15.0)
-         (clone-action "big-climbing-right"))
+         (clone-action "big-climb-right"))
 
        (action
-         (name "fire-climbing-left")
+         (name "fire-climb-left")
          (hitbox 9 14 25 64)
          (fps 15.0)
-         (mirror-action "big-climbing-right"))
+         (mirror-action "big-climb-right"))
 
        (action
          (name "fire-duck-right")
@@ -765,16 +819,16 @@
          (mirror-action "big-buttjump-right"))
 
        (action
-         (name "fire-swimming-right")
+         (name "fire-swim-right")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (clone-action "big-swimming-right"))
+         (clone-action "big-swim-right"))
 
        (action
-         (name "fire-swimming-left")
+         (name "fire-swim-left")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (mirror-action "big-swimming-right"))
+         (mirror-action "big-swim-right"))
 
        (action
          (name "fire-floating-right")
@@ -902,16 +956,16 @@
          (mirror-action "big-idle-right"))
 
        (action
-         (name "ice-climbing-right")
+         (name "ice-climb-right")
          (hitbox 9 14 25 64)
          (fps 15.0)
-         (clone-action "big-climbing-right"))
+         (clone-action "big-climb-right"))
 
        (action
-         (name "ice-climbing-left")
+         (name "ice-climb-left")
          (hitbox 9 14 25 64)
          (fps 15.0)
-         (mirror-action "big-climbing-right"))
+         (mirror-action "big-climb-right"))
 
        (action
          (name "ice-duck-right")
@@ -949,16 +1003,28 @@
          (mirror-action "big-buttjump-right"))
 
        (action
-         (name "ice-swimming-right")
+         (name "ice-swim-right")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (clone-action "big-swimming-right"))
+         (clone-action "big-swim-right"))
 
        (action
-         (name "ice-swimming-left")
+         (name "ice-swim-left")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (mirror-action "big-swimming-right"))
+         (mirror-action "big-swim-right"))
+
+       (action
+         (name "ice-boost-right")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (clone-action "big-boost-right"))
+
+       (action
+         (name "ice-boost-left")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (mirror-action "big-boost-right"))
 
        (action
          (name "ice-floating-right")
@@ -1086,16 +1152,16 @@
          (mirror-action "big-idle-right"))
 
        (action
-         (name "earth-climbing-right")
+         (name "earth-climb-right")
          (fps 15.0)
          (hitbox 9 14 25 64)
-         (clone-action "big-climbing-right"))
+         (clone-action "big-climb-right"))
 
        (action
-         (name "earth-climbing-left")
+         (name "earth-climb-left")
          (fps 15.0)
          (hitbox 9 14 25 64)
-         (mirror-action "big-climbing-right"))
+         (mirror-action "big-climb-right"))
 
        (action
          (name "earth-duck-right")
@@ -1133,16 +1199,28 @@
          (mirror-action "big-buttjump-right"))
 
        (action
-         (name "earth-swimming-right")
+         (name "earth-swim-right")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (clone-action "big-swimming-right"))
+         (clone-action "big-swim-right"))
 
        (action
-         (name "earth-swimming-left")
+         (name "earth-swim-left")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (mirror-action "big-swimming-right"))
+         (mirror-action "big-swim-right"))
+
+       (action
+         (name "earth-boost-right")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (clone-action "big-boost-right"))
+
+       (action
+         (name "earth-boost-left")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (mirror-action "big-boost-right"))
 
        (action
          (name "earth-floating-right")
@@ -1240,14 +1318,14 @@
          (mirror-action "earth-idle-right-stone"))
 
        (action
-         (name "earth-climbing-right-stone")
+         (name "earth-climb-right-stone")
          (hitbox 16 14 32 64)
          (images "earth/statue.png"))
 
        (action
-         (name "earth-climbing-left-stone")
+         (name "earth-climb-left-stone")
          (hitbox 16 14 32 64)
-         (mirror-action "earth-climbing-right-stone"))
+         (mirror-action "earth-climb-right-stone"))
 
        (action
          (name "earth-duck-right-stone")
@@ -1295,10 +1373,46 @@
          (mirror-action "big-walk-right"))
 
        (action
+         (name "air-run-right")
+         (fps 15.0)
+         (hitbox 16 14 32 64)
+         (clone-action "big-walk-right"))
+
+       (action
+         (name "air-run-left")
+         (fps 15.0)
+         (hitbox 16 14 32 64)
+         (mirror-action "big-walk-right"))
+
+       (action
          (name "air-stand-right")
          (fps 15.0)
          (hitbox 16 14 32 64)
          (clone-action "big-stand-right"))
+
+       (action
+         (name "air-slide-right")
+         (fps 15.0)
+         (hitbox 29 24 32 64)
+         (images "big/swimidle1.png"))
+
+       (action
+         (name "air-slide-left")
+         (fps 15.0)
+         (hitbox 29 24 32 64)
+         (mirror-action "big-slide-right"))
+
+       (action
+         (name "air-slidejump-right")
+         (fps 15.0)
+         (hitbox 29 24 32 64)
+         (images "big/swimidle1.png"))
+
+       (action
+         (name "air-slidejump-left")
+         (fps 15.0)
+         (hitbox 29 24 32 64)
+         (mirror-action "big-slide-right"))
 
        (action
          (name "air-stand-left")
@@ -1380,16 +1494,16 @@
          (mirror-action "big-idle-right"))
 
        (action
-         (name "air-climbing-right")
+         (name "air-climb-right")
          (fps 15.0)
          (hitbox 9 14 25 64)
-         (clone-action "big-climbing-right"))
+         (clone-action "big-climb-right"))
 
        (action
-         (name "air-climbing-left")
+         (name "air-climb-left")
          (fps 15.0)
          (hitbox 9 14 25 64)
-         (mirror-action "big-climbing-right"))
+         (mirror-action "big-climb-right"))
 
        (action
          (name "air-duck-right")
@@ -1427,16 +1541,28 @@
          (mirror-action "big-buttjump-right"))
 
        (action
-         (name "air-swimming-right")
+         (name "air-swim-right")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (clone-action "big-swimming-right"))
+         (clone-action "big-swim-right"))
 
        (action
-         (name "air-swimming-left")
+         (name "air-swim-left")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (mirror-action "big-swimming-right"))
+         (mirror-action "big-swim-right"))
+
+       (action
+         (name "air-boost-right")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (clone-action "big-boost-right"))
+
+       (action
+         (name "air-boost-left")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (mirror-action "big-boost-right"))
 
        (action
          (name "air-floating-right")
@@ -1564,16 +1690,16 @@
          (mirror-action "big-idle-right"))
 
        (action
-         (name "santa-climbing-right")
+         (name "santa-climb-right")
          (fps 15.0)
          (hitbox 9 14 25 64)
-         (clone-action "big-climbing-right"))
+         (clone-action "big-climb-right"))
 
        (action
-         (name "santa-climbing-left")
+         (name "santa-climb-left")
          (fps 15.0)
          (hitbox 9 14 25 64)
-         (mirror-action "big-climbing-right"))
+         (mirror-action "big-climb-right"))
 
        (action
          (name "santa-duck-right")
@@ -1611,16 +1737,28 @@
          (mirror-action "big-buttjump-right"))
 
        (action
-         (name "santa-swimming-right")
+         (name "santa-swim-right")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (clone-action "big-swimming-right"))
+         (clone-action "big-swim-right"))
 
        (action
-         (name "santa-swimming-left")
+         (name "santa-swim-left")
          (fps 15.0)
          (hitbox 29 24 32 64)
-         (mirror-action "big-swimming-right"))
+         (mirror-action "big-swim-right"))
+
+       (action
+         (name "santa-boost-right")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (clone-action "big-boost-right"))
+
+       (action
+         (name "santa-boost-left")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (mirror-action "big-boost-right"))
 
        (action
          (name "santa-floating-right")

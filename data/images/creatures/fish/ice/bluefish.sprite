@@ -1,14 +1,12 @@
 (supertux-sprite
   (action
     (name "swim-left")
-    (hitbox 8 15 48 32)
-    (fps 12)
+    (hitbox 4 3 34 31)
     (images "wait-0.png"))
 
   (action
     (name "swim-right")
-    (hitbox 8 15 48 32)
-    (fps 12)
+    (hitbox 12 3 34 31)
     (mirror-action "swim-left"))
 
   (action
