@@ -56,7 +56,7 @@
     (icon "images/creatures/stalactite/falling.png"))
   (object
     (class "fish-harmless")
-    (icon "images/creatures/fish/ice/swim_orange-0.png"))
+    (icon "images/creatures/fish/ice/orangefish.png"))
   (object
     (class "fish-swimming")
     (icon "images/creatures/fish/ice/wait-0.png"))

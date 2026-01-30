@@ -197,11 +197,12 @@
     (music
       (file "/music/salcon.ogg")
     )
-    (teleporter
+    (special-tile
       (z-pos 50)
-      (worldmap "/levels/world2/worldmap.stwm")
-      (spawnpoint "main")
-      (message (_ "Go to Forest Island?"))
+      (blocking #f)
+      (map-message (_ "Forest Island coming soon..."))
+      (invisible-tile #t)
+      (passive-message #t)
       (x 99)
       (y 90)
     )
