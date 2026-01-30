@@ -1,75 +1,45 @@
 (supertux-sprite
   (action
     (name "swim-left")
-    (hitbox 8 10 46 46)
-    (fps 12)
-    (images "swim_green-0.png"
-            "swim_green-1.png"
-            "swim_green-2.png"
-            "swim_green-3.png"
-            "swim_green-4.png"
-            "swim_green-5.png"
-            "swim_green-6.png"
-            "swim_green-7.png"))
+    (hitbox 2 14 38 30)
+    (images "dopefish.png"))
 
   (action
     (name "swim-right")
-    (hitbox 10 10 46 46)
+    (hitbox 15 14 38 30)
     (fps 12)
     (mirror-action "swim-left"))
 
   (action
     (name "notice-left")
-    (hitbox 8 10 46 46)
+    (hitbox 2 14 38 30)
     (loops 1)
-    (fps 12)
-    (images "swim_green-0.png"
-            "notice_green-0.png"
-            "notice_green-1.png"
-            "notice_green-2.png"))
+    (images "dopefish-notice.png"))
 
   (action
     (name "notice-right")
-    (hitbox 10 10 46 46)
+    (hitbox 15 14 38 30)
     (loops 1)
-    (fps 12)
     (mirror-action "notice-left"))
 
   (action
     (name "chase-left")
-    (hitbox 5 10 46 46)
-    (fps 20)
-    (images "chase_green-0.png"
-            "chase_green-1.png"
-            "chase_green-2.png"
-            "chase_green-3.png"
-            "chase_green-4.png"
-            "chase_green-5.png"))
+    (hitbox 2 14 38 30)
+    (images "dopefish-chase.png"))
 
   (action
     (name "chase-right")
-    (hitbox 10 10 46 46)
-    (fps 20)
+    (hitbox 15 14 38 30)
     (mirror-action "chase-left"))
 
   (action
     (name "iced-left")
     (hitbox 0 0 64 64)
-    (images "swim_green-0.png"))
+    (images "dopefish.png"))
 
   (action
     (name "iced-right")
     (hitbox 0 0 64 64)
     (mirror-action "iced-left"))
-
-  (action
-    (hitbox 10 10 46 46)
-    (name "burning-left")
-    (images "swim_green-0.png"))
-
-  (action
-    (hitbox 8 10 46 46)
-    (name "burning-right")
-    (mirror-action "burning-left"))
 
 )

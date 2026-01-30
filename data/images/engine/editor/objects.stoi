@@ -62,7 +62,7 @@
     (icon "images/creatures/fish/ice/wait-0.png"))
   (object
     (class "fish-chasing")
-    (icon "images/creatures/fish/ice/swim_green-0.png"))
+    (icon "images/creatures/fish/ice/dopefish.png"))
   (object
     (class "fish-jumping")
     (icon "images/creatures/fish/forest/jump-0.png"))
