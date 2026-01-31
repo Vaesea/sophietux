@@ -755,6 +755,22 @@
          (clone-action "big-kick-right"))
 
        (action
+         (name "fire-boost-right")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (images "big/swim-0.png"
+                 "big/swim-1.png"
+                 "big/swim-2.png"
+                 "big/swim-3.png"
+                 "big/swim-4.png"))
+
+       (action
+         (name "fire-boost-left")
+         (fps 18.0)
+         (hitbox 29 24 32 64)
+         (mirror-action "big-boost-right"))
+
+       (action
          (name "fire-kick-left")
          (hitbox 16 14 32 64)
          (mirror-action "big-kick-right"))
