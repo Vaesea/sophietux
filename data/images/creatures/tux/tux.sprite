@@ -795,12 +795,12 @@
        (action
          (name "fire-backflip-right")
          (fps 7.0)
-         (hitbox 16 37 32 32)
+         (hitbox 8 12 32 32)
          (clone-action "big-backflip-right"))
 
        (action
          (name "fire-backflip-left")
-         (hitbox 16 37 32 32)
+         (hitbox 8 12 32 32)
          (fps 7.0)
          (clone-action "big-backflip-left"))
 
@@ -979,12 +979,12 @@
 
        (action
          (name "ice-backflip-right")
-         (hitbox 16 37 32 32)
+         (hitbox 8 12 32 32)
          (clone-action "big-backflip-right"))
 
        (action
          (name "ice-backflip-left")
-         (hitbox 16 37 32 32)
+         (hitbox 8 12 32 32)
          (fps 18.0)
          (mirror-action "big-backflip-right"))
 
@@ -1175,12 +1175,12 @@
 
        (action
          (name "earth-backflip-right")
-         (hitbox 16 37 32 32)
+         (hitbox 8 12 32 32)
          (clone-action "big-backflip-right"))
 
        (action
          (name "earth-backflip-left")
-         (hitbox 16 37 32 32)
+         (hitbox 8 12 32 32)
          (fps 18.0)
          (mirror-action "big-backflip-right"))
 
@@ -1517,12 +1517,12 @@
 
        (action
          (name "air-backflip-right")
-         (hitbox 16 37 32 32)
+         (hitbox 8 12 32 32)
          (clone-action "big-backflip-right"))
 
        (action
          (name "air-backflip-left")
-         (hitbox 16 37 32 32)
+         (hitbox 8 12 32 32)
          (fps 18.0)
          (mirror-action "big-backflip-right"))
 
@@ -1713,12 +1713,12 @@
 
        (action
          (name "santa-backflip-right")
-         (hitbox 16 37 32 32)
+         (hitbox 8 12 32 32)
          (clone-action "big-backflip-right"))
 
        (action
          (name "santa-backflip-left")
-         (hitbox 16 37 32 32)
+         (hitbox 8 12 32 32)
          (fps 18.0)
          (mirror-action "big-backflip-right"))
 
