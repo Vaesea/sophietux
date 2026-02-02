@@ -11,8 +11,7 @@ Run the "run_peppertux_portable.bat" file in the portable version of this mod to
 * FrostC - Art (sand tiles)
 * AnatolyStev - Original "Platforms In The Icy River"
 * SuperTux Team - Original SuperTux v0.7 and v0.6.3.
-* Bart + opengameart.org - Airship Song
-* Remaxim + opengameart.org - Orchestral Remix of Airship Song
+* OpenGameArt.org - Various songs, check AUTHORS file.
 * Lukas Nystrand (Mortimer Twang) - Mortimer's Chipdisko
 * Mystical - Salcon
 * Larry Ewing - Creator of Tux
