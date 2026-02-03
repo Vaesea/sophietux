@@ -85,7 +85,7 @@
          (loops 1)
          (mirror-action "small-jump-right"))
 		 
-	   (action
+	(action
          (name "small-fall-right")
          (fps 16.0)
          (hitbox 15 38 32 32)
@@ -100,7 +100,7 @@
          (fps 16.0)
          (hitbox 15 38 32 32)
          (loops 1)
-         (mirror-action "small-jump-right"))
+         (mirror-action "small-fall-right"))
 		 
        (action
          (name "small-skid-right")
@@ -129,7 +129,15 @@
          (hitbox 8 16 32 32)
          (images "small/idle-0.png"
                  "small/idle-1.png"
-                 "small/idle-0.png"))
+                 "small/idle-0.png"
+		 "small/stand-0.png"
+		 "small/stand-0.png"
+		 "small/stand-0.png"
+		 "small/stand-0.png"
+		 "small/stand-0.png"
+		 "small/stand-0.png"
+		 "small/stand-0.png"
+		 "small/stand-0.png"))
 
        (action
          (name "small-idle-left")
@@ -325,7 +333,7 @@
 
        (action
          (name "big-walk-right")
-         (fps 20.0)
+         (fps 17.0)
          (hitbox 16 14 32 64)
          (images "big/walk-0.png"
                  "big/walk-1.png"
@@ -338,13 +346,13 @@
 
        (action
          (name "big-walk-left")
-         (fps 20.0)
+         (fps 17.0)
          (hitbox 16 14 32 64)
          (mirror-action "big-walk-right"))
 
        (action
          (name "big-run-right")
-         (fps 20.0)
+         (fps 12.0)
          (hitbox 18 14 32 64)
          (images "big/run-0.png"
                  "big/run-1.png"
@@ -356,7 +364,7 @@
 
        (action
          (name "big-run-left")
-         (fps 20.0)
+         (fps 12.0)
          (hitbox 18 14 32 64)
          (mirror-action "big-run-right"))
 
@@ -419,7 +427,7 @@
          (fps 16.0)
          (hitbox 16 14 32 64)
          (loops 1)
-         (mirror-action "big-jump-right"))
+         (mirror-action "big-fall-right"))
 
        (action
          (name "big-skid-right")
@@ -646,13 +654,13 @@
 
        (action
          (name "fire-run-right")
-         (fps 20.0)
+         (fps 12.0)
          (hitbox 18 14 32 64)
          (clone-action "big-run-right"))
 
        (action
          (name "fire-run-left")
-         (fps 20.0)
+         (fps 12.0)
          (hitbox 18 14 32 64)
          (clone-action "big-run-left"))
 
@@ -904,6 +912,18 @@
          (mirror-action "big-walk-right"))
 
        (action
+         (name "ice-run-right")
+         (fps 12.0)
+         (hitbox 16 14 32 64)
+         (clone-action "big-run-right"))
+
+       (action
+         (name "ice-run-left")
+         (fps 12.0)
+         (hitbox 16 14 32 64)
+         (mirror-action "big-run-right"))
+
+       (action
          (name "ice-stand-right")
          (fps 15.0)
          (hitbox 16 14 32 64)
@@ -1098,6 +1118,18 @@
          (fps 15.0)
          (hitbox 16 14 32 64)
          (mirror-action "big-walk-right"))
+
+       (action
+         (name "earth-run-right")
+         (fps 12.0)
+         (hitbox 16 14 32 64)
+         (clone-action "big-run-right"))
+
+       (action
+         (name "earth-run-left")
+         (fps 12.0)
+         (hitbox 16 14 32 64)
+         (mirror-action "big-run-right"))
 
        (action
          (name "earth-stand-right")
@@ -1407,15 +1439,15 @@
 
        (action
          (name "air-run-right")
-         (fps 15.0)
+         (fps 12.0)
          (hitbox 16 14 32 64)
-         (clone-action "big-walk-right"))
+         (clone-action "big-run-right"))
 
        (action
          (name "air-run-left")
-         (fps 15.0)
+         (fps 12.0)
          (hitbox 16 14 32 64)
-         (mirror-action "big-walk-right"))
+         (mirror-action "big-run-right"))
 
        (action
          (name "air-stand-right")
@@ -1636,6 +1668,18 @@
          (fps 20.0)
          (hitbox 16 14 32 64)
          (mirror-action "big-walk-right"))
+
+       (action
+         (name "santa-run-right")
+         (fps 12.0)
+         (hitbox 16 14 32 64)
+         (clone-action "big-run-right"))
+
+       (action
+         (name "santa-run-left")
+         (fps 12.0)
+         (hitbox 16 14 32 64)
+         (mirror-action "big-run-right"))
 
        (action
          (name "santa-stand-right")
