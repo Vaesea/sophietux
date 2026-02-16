@@ -1,7 +1,7 @@
 (supertux-level-subset
   (title (_ "Rooted Forest"))
   (description (_ "World 2"))
-  (levelset #t)
+  (levelset #f)
   (contrib-type "official")
   (hide-from-contribs #f)
   (title-level "")
