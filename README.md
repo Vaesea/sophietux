@@ -1,17 +1,3 @@
-# PepperTux (0.7 Mod Version)
-Mod for SuperTux 0.6.0 named PepperTux. Please tell me if the license is wrong, I don't know what the proper license would be (maybe CC-BY-SA 4.0?)
+# SophieTux
 
-Any new tiles added needs the image's horizontal size to be 128 or smaller so it's easy to add into the tiles.strf file, unless you add it to tiles.strf yourself. I'm not good at editing tiles.strf, even less good at it now.
-
-Run the "run_peppertux_portable.bat" file in the portable version of this mod to start playing the mod.
-
-## Credits
-* Vaesea - Levels
-* FilipOK - Art, music that will be added later
-* FrostC - Art (sand tiles)
-* AnatolyStev - Original "Platforms In The Icy River"
-* SuperTux Team - Original SuperTux v0.7 and v0.6.3.
-* OpenGameArt.org - Various songs, check AUTHORS file.
-* Lukas Nystrand (Mortimer Twang) - Mortimer's Chipdisko
-* Mystical - Salcon
-* Larry Ewing - Creator of Tux
+hey kids did you ever want to see supertux 0.5.1 in supertux 0.7? no? well here you go anyways!

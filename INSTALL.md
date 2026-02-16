@@ -1,6 +1,6 @@
-Install instructions for SuperTux - <https://supertux.org/>
+Install instructions for SophieTux
 ====================================================================
-Last update: May 4, 2025
+Last update: February 16, 2026
 
 Categories:
 - [Binaries](#binaries)
@@ -16,25 +16,18 @@ Binaries
 
 ### Releases
 
-We try to provide precompiled binaries of SuperTux for a number of
-platforms. You should check <https://supertux.org/download.html>
-for the packages and instructions on how to install them. If there are
-no prebuilt binaries for your platform, then you might still be able
-to compile the source code yourself. In this case read the next
-sections.
+There are no releases currently.
 
 ### Nightlies
 
-We also provide binaries automatically generated as code is added to the
+I also provide binaries automatically generated as code is added to the
 repository. These are built using GitHub Actions and are generally used to
 validate code quality, but as they produce binaries, those can be downloaded
-and installed like any release. You may find the nightlies at
-<https://download.supertux.org/>.
-
-Alternatively, if you have a GitHub account, you may find nightlies directly on GitHub
-[here](https://github.com/SuperTux/supertux/actions/workflows/); click on any entry in the list on
-the right (topmost = most recent), then scroll down to the Artifacts section.
-Note that this only works if you are logged in to GitHub.
+and installed like any release. If you have a GitHub account, you may find nightlies
+directly on GitHub [here](https://github.com/Vaesea/sophietux/actions/workflows/); 
+click on any entry in the list on the right (topmost = most recent), then scroll 
+down to the Artifacts section. Note that this only works if you are logged in to 
+GitHub.
 
 Compiling
 ---------
@@ -43,7 +36,7 @@ Compiling
 
 ### Requirements
 
-To build SuperTux from source, you need to have a number of tools and
+To build SophieTux from source, you need to have a number of tools and
 libraries installed.
 
 One of these tools is CMake, preferrably with the latest version.
@@ -72,14 +65,14 @@ For ease of use, here are some installation lines for some Linux distributions:
 
 ### Linux/UNIX using CMake
 
-SuperTux uses CMake to generate a set of Makefiles for the build
+SophieTux uses CMake to generate a set of Makefiles for the build
 process. To generate these Makefiles and build SuperTux, perform the
 following steps:
 
 1. `cd` to the directory where you unpacked the SuperTux source
    archive, i.e. to the directory containing `src` and `data`.
 
-2. If you cloned this Supertux repo using git run `git submodule
+2. If you cloned this SophieTux repo using git run `git submodule
    update --init --recursive` to fetch/update submodules.
    (If you got this version of Supertux from an archive,
    submodules should already be included in the package.)
@@ -87,9 +80,9 @@ following steps:
 3. Create and change to a new, empty build directory by running `mkdir
    build` and then `cd build`.
 
-4. Run `cmake ..` to create the Makefiles needed to build SuperTux
+4. Run `cmake ..` to create the Makefiles needed to build SophieTux
    with standard options. If you are missing any libraries needed to
-   build SuperTux, install those first, then try running CMake again.
+   build SophieTux, install those first, then try running CMake again.
    See below for instructions on how to change to standard options.
    - Pass `-DCMAKE_BUILD_TYPE=Release` to build the executable with
      release options.
@@ -103,7 +96,7 @@ following steps:
   - If you want to install it to your system, you can run
     `cmake --install .` with superuser privileges.
 
-Here are some SuperTux specific CMake options:
+Here are some SophieTux specific CMake options:
 
 - `-DENABLE_OPENGL=ON`
   : Enabling will integrate OpenGL support (else the game
@@ -130,7 +123,7 @@ Here are some SuperTux specific CMake options:
 
 ### Windows using CMake and Visual Studio
 
-To build SuperTux on Windows with Visual Studio, you will need:
+To build SophieTux on Windows with Visual Studio, you will need:
 - An IDE of your choice (optional)
 - Visual Studio Community Build Tools (or any edition).
   SuperTux is tested with Visual Studio 17 (2022).
@@ -144,7 +137,7 @@ Follow the steps to installing vcpkg.
 
 Once dependencies are installed:
 
-1. Unpack the SuperTux source pack or get the source with git (`git clone --recurse-submodules https://github.com/SuperTux/supertux.git`).
+1. Unpack the SophieTux source pack or get the source with git (`git clone --recurse-submodules https://github.com/Vaesea/sophietux.git`).
 
 2. Create a new, empty `build` folder.
 
@@ -167,11 +160,10 @@ For more CMake options, look at end of the Linux/UNIX build section.
 6. Install the game to a folder by running `cmake --install . .\SuperTux`
    This will create a folder called SuperTux inside the build directory.
 
-7. You can now run the game by going to that SuperTux folder and
-   running `run_supertux2.bat`. You can also use `run_supertux2_portable.bat`
-   instead to store configuration files inside of the SuperTux installation.
+7. You can now run the game by going to that SophieTux folder and
+   running `run_peppertux_portable.bat`.
 
 ### Other platforms
 
-If you would like to compile SuperTux for a supported platform that isn't listed here,
+If you would like to compile SophieTux for a supported platform that isn't listed here,
 you can refer to the [workflow files](.github/workflows).
