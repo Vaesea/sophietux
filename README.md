@@ -1,3 +1,3 @@
 # SophieTux
 
-hey kids did you ever want to see supertux 0.5.1 in supertux 0.7? no? well here you go anyways!
+it's like supertux 0.5.1 but better and in supertux 0.7. is it better than normal supertux? NO IT'S NOT.
