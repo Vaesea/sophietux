@@ -1,5 +1,6 @@
-# SophieTux
+# OldTux
+Did you ever want to play SuperTux 0.5.1 but wanted 0.7.0 stuff like Item Pocket? No? Well it exists anyways.
 
-0.5.1 but 0.7
+PepperTux stuff will be removed here because this is not PepperTux. If you want PepperTux, go to PepperTux.
 
-trans rights
+Trans Rights!!!
