@@ -1,0 +1,8 @@
+(supertux-music
+  (file "workshop_of_doom.ogg")
+  (authors "Sophie \"Vaesea\" Ball")
+  (license "CC-BY-SA 4.0")
+  (title "Workshop Of Doom")
+  (loop-begin 0)
+  (loop-at -1)
+)

@@ -1,0 +1,8 @@
+(supertux-music
+  (file "factoryremix.ogg")
+  (authors "Marek \"Wansti\" Moeckel and Sophie \"Vaesea\" Ball")
+  (license "Ask Wansti")
+  (title "The Factory (Airfont 340 Remix)")
+  (loop-begin 0)
+  (loop-at -1)
+)
