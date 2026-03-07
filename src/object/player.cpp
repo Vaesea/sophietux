@@ -50,8 +50,6 @@
 #include "trigger/trigger_base.hpp"
 #include "video/surface.hpp"
 
-#define SWIMMING
-
 const float TUX_INVINCIBLE_TIME_WARNING = 2.0f;
 
 namespace
