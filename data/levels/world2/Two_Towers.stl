@@ -248,24 +248,28 @@
       (path-ref "gen1772930305104989842587376")
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 885.5392)
       (y 591.3214)
       (glinting #f)
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 5095)
       (y 1384)
       (glinting #f)
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 5223)
       (y 1384)
       (glinting #f)
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 4967)
       (y 2888)

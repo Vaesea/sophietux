@@ -168,12 +168,14 @@ Level.spawn(\"ghostforest\", \"main\");
       (y 672)
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 4192)
       (y 784)
       (glinting #f)
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 6576)
       (y 752)

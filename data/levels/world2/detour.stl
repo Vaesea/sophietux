@@ -74,8 +74,8 @@
     )
     (mrtree
       (z-pos 50)
-      (x 5952)
-      (y 736)
+      (x 6304)
+      (y 864)
       (glinting #f)
     )
     (music
@@ -164,8 +164,8 @@
     )
     (viciousivy
       (z-pos 50)
-      (x 6464)
-      (y 896)
+      (x 6496)
+      (y 928)
       (glinting #f)
     )
     (viciousivy

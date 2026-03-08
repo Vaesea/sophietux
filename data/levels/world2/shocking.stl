@@ -32,24 +32,14 @@
       (y 448)
     )
     (jumpy
-      (z-pos 50)
-      (x 2656)
-      (y 512)
-      (glinting #f)
-    )
-    (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 2752)
       (y 480)
       (glinting #f)
     )
     (jumpy
-      (z-pos 50)
-      (x 2848)
-      (y 512)
-      (glinting #f)
-    )
-    (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 7056)
       (y 400)

@@ -74,6 +74,7 @@
       (direction "right")
       (x 4993)
       (y 1392)
+      (dart-sprite "images/creatures/darttrap/granito/root_dart.sprite")
     )
     (firefly
       (z-pos 0)

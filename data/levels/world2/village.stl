@@ -723,6 +723,7 @@ tischsaege.goto_node( 0 ) 	")
       (glinting #f)
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 2560)
       (y 672)

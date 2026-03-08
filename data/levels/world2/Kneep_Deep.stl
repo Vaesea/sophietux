@@ -60,6 +60,7 @@
       (glinting #f)
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 2432)
       (y 1312)

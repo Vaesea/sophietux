@@ -216,8 +216,8 @@
     (viciousivy
       (z-pos 50)
       (direction "left")
-      (x 12098)
-      (y 1700)
+      (x 11744)
+      (y 1696)
       (glinting #f)
     )
   )

@@ -82,18 +82,21 @@
       (y 1280)
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 1729)
       (y 1183)
       (glinting #f)
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 4704)
       (y 1315)
       (glinting #f)
     )
     (jumpy
+      (type "wooden")
       (z-pos 50)
       (x 6199)
       (y 453)
