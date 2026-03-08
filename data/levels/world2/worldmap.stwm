@@ -210,8 +210,8 @@
     )
     (level
       (z-pos 50)
-      (level "dan_morial.stl")
-      (name "dan_morial.stl")
+      (level "ghosts_here.stl")
+      (name "ghosts_here.stl")
       (sprite "images/worldmap/common/shroom.sprite")
       (x 44)
       (y 24)
