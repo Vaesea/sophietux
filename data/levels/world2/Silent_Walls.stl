@@ -139,8 +139,9 @@ door3b.goto_node(0);
       (script "door6a.goto_node(1);
 door6b.goto_node(1);
 ")
-      (x 3106)
-      (y 147)
+      (direction "down")
+      (x 3104)
+      (y 160)
     )
     (jumpy
       (z-pos 50)

@@ -23,9 +23,8 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (bonusblock
+      (type "purple")
       (z-pos 51)
-      (count 8)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 1472)
       (y 448)
     )
@@ -208,7 +207,12 @@
     (spawnpoint
       (name "InsideTreeHouse")
       (x 192)
-      (y 480)
+      (y 512)
+    )
+    (spawnpoint
+      (name "main")
+      (x 192)
+      (y 512)
     )
     (tilemap
       (solid #f)

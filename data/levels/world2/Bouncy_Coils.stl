@@ -24,9 +24,8 @@
       (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
     )
     (bonusblock
+      (type "purple")
       (z-pos 51)
-      (count 8)
-      (sprite "images/objects/bonus_block/purpleblock.sprite")
       (x 3072)
       (y 224)
     )
@@ -86,7 +85,7 @@
       (z-pos 50)
       (direction "left")
       (x 2080)
-      (y 384)
+      (y 352)
       (glinting #f)
     )
     (igel

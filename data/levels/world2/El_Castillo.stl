@@ -66,6 +66,7 @@
       (dart-sprite "images/creatures/darttrap/granito/root_dart.sprite")
     )
     (darttrap
+      (type "skull")
       (z-pos -1)
       (initial-delay 0)
       (fire-delay 2)
@@ -73,7 +74,6 @@
       (direction "right")
       (x 4993)
       (y 1392)
-      (dart-sprite "images/creatures/darttrap/granito/root_dart.sprite")
     )
     (firefly
       (z-pos 0)
@@ -511,6 +511,10 @@ dropdoor3.goto_node(1);
       (name "main")
       (x 96)
       (y 1664)
+    )
+    (spawnpoint
+      (x 5152)
+      (y 1408)
     )
     (tilemap
       (solid #f)
